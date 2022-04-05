@@ -1,5 +1,5 @@
 {
-  "name": "floatingpoint/stylist",
+  "name": "creanso_floatingpoint/stylist",
   "description": "Laravel 5 theming package.",
   "authors": [
     {
@@ -12,9 +12,11 @@
     }
   ],
   "require": {
-    "php": "^7.0",
-    "laravelcollective/html": "~5.5",
-    "illuminate/support": "~5.5"
+    "php": ">=7.3",
+    "illuminate/support": ">=8.0",
+    "illuminate/config": ">=8.0",
+    "illuminate/view": ">=8.0",
+    "laravelcollective/html": ">=6"
   },
   "require-dev": {
     "mockery/mockery": "^0.9.5",
